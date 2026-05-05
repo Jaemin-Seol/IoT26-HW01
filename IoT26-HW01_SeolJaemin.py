@@ -3,7 +3,7 @@
 
 from gpiozero import LED # or DigitalOutputDevice
 from time import sleep
-from signal import puase
+from signal import pause
 
 led = LED(14) # LED is on GPIO14 = pin8
 
